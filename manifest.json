@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Posumowanie dnia [zjemy.pl]",
+    "version": "0.1.0",
+    "description": "Display daily summary of macros and calories",
+    "permissions": [],
+    "content_scripts": [
+        {
+            "matches": ["https://zamow-teraz.zjemy.pl/pl/my-diet/menu-planning/*"],
+            "js": ["contentScript.js"]
+        }
+    ],
+    "icons": {
+        "48": "icon.png"
+    }
+}
