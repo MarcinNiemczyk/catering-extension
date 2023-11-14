@@ -15,6 +15,6 @@
     },
     "web_accessible_resources": [{
         "matches": ["<all_urls>"],
-        "resources": ["service.js", "utils.js"]
+        "resources": ["service.js"]
     }]
 }
