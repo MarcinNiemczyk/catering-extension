@@ -35,5 +35,5 @@ export function getDailySummary(meals) {
     carbs = Math.floor(carbs * 100) / 100;
     fats = Math.floor(fats * 100) / 100;
 
-    return `B: ${protein}, W: ${carbs}, T: ${fats}, Kcal: ${calories}`;
+    return `B: ${protein} | W: ${carbs} | T: ${fats} | Kcal: ${calories}`;
 }
